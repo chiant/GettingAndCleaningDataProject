@@ -76,4 +76,4 @@ Get_Tidy_UCI_HAR_Mean<-function(){
         print("this is the end of run. the function should return a tidy dataset as data frame object")
         return(output.table)
 } 
-UCI_Mean<-Get_Tidy_UCI_HAR_Mean()
+# UCI_Mean<-Get_Tidy_UCI_HAR_Mean()
