@@ -28,16 +28,23 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ## How to run run_analysis.R
-1. download run_analysis.R, and save it in your R work directory
-2. run the following code in your R console to load the function:
+1. download the raw data from the following link, and save the zip file in your R work directory:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+2. unzip the downloaded file in your R work folder.
+
+3. download run_analysis.R from this github repo, and save it in your R work directory
+
+4. run the following code in your R console to load the function:
 
         source("run_analysis.R")
 		
-3. run the following code in your R console to call the function and create the output dataset
+5. run the following code in your R console to call the function and create the output dataset
 
         UCI_Mean<-Get_Tidy_UCI_HAR_Mean()
 		
-4. there would be messages prompted during the runtime of code. The code run is successfully completed when you see the following message:
+6. there would be messages prompted during the runtime of code. The code run is successfully completed when you see the following message:
 
 	    "this is the end of run. the function would return a tidy dataset as data frame object"
 
