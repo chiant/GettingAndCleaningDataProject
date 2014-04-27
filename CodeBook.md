@@ -12,7 +12,7 @@ Here is the download link for the data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Raw Data Description
-One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). 
+One of the most exciting areas in all of data science right now is wearable computing - see for example [this article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). 
 Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 The data linked to from the website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
@@ -28,9 +28,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ## How to run run_analysis.R
-1. download the raw data from the following link, and save the zip file in your R work directory:
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+1. download the raw data from [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and save the zip file in your R work directory:
 
 2. unzip the downloaded file in your R work folder.
 
