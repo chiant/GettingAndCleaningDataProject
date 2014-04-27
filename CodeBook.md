@@ -30,7 +30,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## How to run run_analysis.R
 1. download the raw data from [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and save the zip file in your R work directory:
 
-2. unzip the downloaded file in your R work folder.
+2. unzip the downloaded file in your R work directory.
 
 3. download run_analysis.R from this github repo, and save it in your R work directory
 
