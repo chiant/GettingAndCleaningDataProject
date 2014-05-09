@@ -55,12 +55,13 @@ Get_Tidy_UCI_HAR_Mean<-function(){
         names(y)<-c("activitycode")
         names(activity_labels.txt)<-c("activitycode","activity")
         names(subject)<-c("subject")
-        activity<-merge(x=y,y=activity_labels.txt,by="activitycode",all.x=TRUE)
+
         print("task 3 is done: Uses descriptive activity names to name the activities in the data set")
         print("task 4 is done: Appropriately labels the data set with descriptive activity names.")
         
         print("creating master table......")
-        master<-cbind(subject,activity,x)
+        master<-cbind(subject,y,x)
+		master<-merge(x=activity_labels.txt,y=master,by="activitycode",all.y=TRUE)
         master$activitycode<-NULL
         
         print("aggregating master table......")
